@@ -1,0 +1,19 @@
+
+
+# Virtual environments (covers venv, Conda, etc.)
+venv/
+.venv/
+env/
+.env
+myenv/
+*.venv
+.conda/
+conda-meta/
+.env
+./LANGGRAPH/.env
+
+
+# Environment variables and secrets
+# .env
+# *.env
+

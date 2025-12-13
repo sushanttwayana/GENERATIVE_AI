@@ -31,10 +31,15 @@ query = 'tell me about Ronaldo'
 
 doc_embeddings = embedding.embed_documents(documents)
 query_embedding = embedding.embed_query(query)
+print(cosine_similarity([query_embedding], doc_embeddings))
 
-scores = cosine_similarity([query_embedding], doc_embeddings)[0]
+scores = cosine_similarity([query_embedding], doc_embeddings)[0] # conversion from 2D list to single list
 
-index, score = sorted(list(enumerate(scores)),key=lambda x:x[1])[-1]
+print(list(enumerate(scores)))
+
+print(sorted(list(enumerate(scores)),key=lambda x:x[1]))
+
+index, score = sorted(list(enumerate(scores)),key=lambda x:x[1])[-1] # sorting on the basis of the 2nd item of the list  and retriving the last one
 
 print(query)
 print(documents[index])

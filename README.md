@@ -1,7 +1,7 @@
-## Generative AI with LangChain
+# Generative AI with LangChain
 A comprehensive repository showcasing end-to-end implementations of Generative AI applications using LangChain framework. This repository covers everything from foundational LLM concepts to advanced RAG systems and AI agents.
 
-🎯 Overview
+## 🎯 Overview
 This repository serves as a comprehensive learning resource and reference implementation for building production-ready Generative AI applications. It covers the complete LangChain ecosystem, from basic LLM interactions to complex AI agent systems, providing hands-on examples for each concept.
 
 #### Perfect for:

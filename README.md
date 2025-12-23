@@ -11,23 +11,63 @@ This repository serves as a comprehensive learning resource and reference implem
 - Teams implementing AI agents and autonomous systems
 - Anyone interested in production-grade GenAI solutions
 
-📁 Repository Structure
+## 📁 Repository Structure
 
-GENERATIVE_AI/
-│
-├── Langchain/
-│   ├── 1.Models/                    # LLM, Chat Models, and Embeddings
-│   ├── 2.Prompts/                   # Prompt Engineering & Templates
-│   ├── 3.Structured_Output/         # Schema-based Output Generation
-│   ├── 4.Output_Parsers/            # Parsing LLM Responses
-│   ├── 5.Chains/                    # Sequential Logic Chains
-│   ├── 6.Runnables/                 # LCEL (LangChain Expression Language)
-│   ├── 7.DocumentLoaders/           # Loading Various Document Types
-│   ├── 8.TextSplitter/              # Chunking Strategies
-│   ├── 9.VectorDatabase/            # Vector Store Implementations
-│   ├── 10.Retrievers/               # Document Retrieval Methods
-│   ├── 11.RAG/                      # Retrieval-Augmented Generation
-│   ├── 12.Tools/                    # LangChain Tools Integration
-│   └── 13.AI_AGENT_Langchain/       # Autonomous AI Agents
-│
-└── test.ipynb                       # Quick Testing Notebook
+<img width="541" height="358" alt="image" src="https://github.com/user-attachments/assets/32d48c36-a056-4ff9-97a5-93f186fd678a" />
+
+## ✨ Features
+#### 🎨 Core Capabilities
+
+- Multiple LLM Integrations: OpenAI, Groq, Ollama, and more
+- Advanced RAG Systems: Complete document processing pipelines
+- AI Agents: Tool-using autonomous agents with decision-making
+- Production-Ready Code: Well-structured, documented implementations
+- LCEL Support: Modern LangChain Expression Language patterns
+- Vector Database Integration: ChromaDB, FAISS, and more
+- Real-World Examples: YouTube chatbot, document Q&A systems
+
+#### 🚀 Highlights
+
+- ✅ Comprehensive coverage of LangChain ecosystem
+- ✅ Hands-on Jupyter notebooks for each concept
+- ✅ Production-grade code structure
+- ✅ Multiple use cases and implementations
+- ✅ Best practices and design patterns
+- ✅ Ready-to-deploy examples
+
+#### 🔧 Prerequisites
+Before you begin, ensure you have the following installed:
+
+* Python 3.8 or higher
+* pip (Python package manager)
+* Virtual environment tool (venv or conda)
+* API Keys for:
+
+    - OpenAI (optional)
+    - Groq (optional)
+    - Other LLM providers as needed
+
+## 📦 Installation
+
+1. Install Dependencies
+   ```bash
+    pip install langchain langchain-community langchain-openai
+    pip install chromadb faiss-cpu
+    pip install python-dotenv
+    pip install jupyter notebook
+    pip install openai groq
+    
+    # Additional dependencies
+    pip install pypdf unstructured tiktoken
+    pip install youtube-transcript-api
+   ```
+
+2. Set Up Environment Variables
+Create a .env file in the root directory:
+   ```bash
+    OPENAI_API_KEY=your_openai_api_key_here
+    GROQ_API_KEY=your_groq_api_key_here
+    LANGCHAIN_API_KEY=your_langchain_api_key_here
+    LANGCHAIN_TRACING_V2=true
+   ```
+
